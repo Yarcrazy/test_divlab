@@ -31,6 +31,9 @@ return [
         'user' => [
             'identityClass' => 'app\models\User',
         ],
+        'exchangeRateManager' => [
+            'class' => 'app\models\banking\ExchangeRateManager',
+        ],
         'request' => [
             'cookieValidationKey' => 'test',
             'enableCsrfValidation' => false,

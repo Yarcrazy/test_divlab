@@ -42,6 +42,9 @@ $config = [
             ],
         ],
         'db' => $db,
+        'exchangeRateManager' => [
+            'class' => 'app\models\banking\ExchangeRateManager',
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
